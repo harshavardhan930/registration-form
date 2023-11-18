@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harsha Vardhan</title>
+    <title>Document</title>
      <link rel="stylesheet" href="reg.css">
+
+  
+   
 </head>
 <body>
 
@@ -17,6 +20,7 @@
   method="POST">
 
         <div class="container">
+            
         <label for="name">Name</label>
         <input type="text" name="name" required="">
         <label for="email">Email</label>
@@ -25,16 +29,76 @@
         <input type="password" name="password" .id="password" required="">
         <label for="phone number">phone number</label>
         <input type="tel" name="phone number" id="phone number" required="">
-        <label for="gender">gender</label>
-        <select id="gender">
-            <option value="male" name="male">Male</option>
-            <option value="female" name="female">Female</option>
-            <option value="others" name="others">Other</option></select>
-            <label for="zipcode">zip code</label>
-            <input type="text" name="zipo code" id="zip code" required="">
-            <label for="about">About</label>
+        
+
+         
+            
+        <form>
+            <label class="checkbox-inline">
+              <input type="checkbox" value="">Telugu
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" value="">Hindi
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" value="">English
+            </label>
+          </form>
+          <input type="button" onclick="alert('carefully ennter the data')" value="Click Me!">
+            <input type="radio" id="html" name="fav_language" value="HTML"> 
+            <label for="html">HTML</label><br> 
+            <input type="radio" id="css" name="fav_language" value="CSS"> 
+            <label for="css">CSS</label><br> 
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript"> 
+            <label for="javascript">JavaScript</label>
+            <label for="favcolor">Select your favoritecolor:</label> 
+            <input type="color" id="favay (date and time):">
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <input type="hidden" id="custId" name="custId" value="3487">
+            <input type="submit" value="Submit"> 
+            <input type="image" src="submit.gif" alt="Submit" width="48" height="48"> 
+            <label for="bdaymonth">Birthday (month and year):</label>
+            <input type="month" id="bdaymonth" name="bdaymonth"> 
+            <label for="week">Select a week:</label>
+            <input type="week" id="week" name="week"> 
+            <label for="quantity">Quantity (between 1 and 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5">
+            <label for="vol">Volume (between 0 and 50):</label>
+            <input type="range" id="vol" name="vol" min="0" max="50">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+            <label for="gsearch">Search Google:</label>
+            <input type="search" id="gsearch" name="gsearch"> 
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <label for="appt">Select a time:</label>
+            <input type="time" id="appt" name="appt"> 
+            <label for="homepage">Add your homepage:</label>
+            <input type="url" id="homepage" name="homepage"> 
+            <label>gender</label>
+            <select>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+            <label>Zipcode</label>
+            <input type="text" zipcode="zipcode" required="">
+            <label>About</label>
             <textarea name="about"></textarea>
-            <div class="neha"></div>
+          
+
+
+        </form>
            
             <button class="button">Register</button>
 
